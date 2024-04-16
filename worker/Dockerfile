@@ -55,6 +55,10 @@ RUN python3.8 -m pip install watchtower
 
 RUN python3.8 -m pip install pandas
 
+# Install Cellpose 
+
+RUN python3.8 -m pip install cellpose
+
 # SETUP NEW ENTRYPOINT
 
 RUN mkdir -p /home/ubuntu/

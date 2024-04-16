@@ -1,6 +1,6 @@
-user = cellprofiler
+user = suganyasivaguru
 project = distributed-cellprofiler
-tag = 2.1.0_4.2.4
+tag = 2.1.0_4.2.4_cellpose
 
 .DEFAULT_GOAL: build
 build:
