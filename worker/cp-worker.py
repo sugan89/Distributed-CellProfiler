@@ -12,7 +12,7 @@ import watchtower
 
 DATA_ROOT = '/home/ubuntu/bucket'
 LOCAL_OUTPUT = '/home/ubuntu/local_output'
-PLUGIN_DIR = '/home/ubuntu/CellProfiler-plugins'
+PLUGIN_DIR = '/home/ubuntu/CellProfiler-plugins/active_plugins'
 QUEUE_URL = os.environ['SQS_QUEUE_URL']
 AWS_BUCKET = os.environ['AWS_BUCKET']
 if 'SOURCE_BUCKET' not in os.environ:
